@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SecondActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="page 2"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="ID Text" />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Name Text" />
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Age Text" />
+    <TextView
+        android:id="@+id/txtHobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Hobby Text" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#48ef60"
+        android:textAllCaps="false"
+        android:text="close"
+        android:textSize="20sp" />
+</LinearLayout>
